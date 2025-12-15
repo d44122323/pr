@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Clinic</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <img src="img/logo.png" class="logo" alt="logo">
+
+    <header>
+<nav class="nav-menu">
+    <a href="#hero">Главная</a>
+    <a href="#services">Услуги</a>
+    <a href="#specialists">Специалисты</a>
+    <a href="#contacts">Контакты</a>
+</nav>
+
+
+
+    </header>
+
+    <button class="btn-record" id="btn-record">Записаться</button>
+
+    <section class="hero-block" id="hero">
+        <div class="hero-content">
+            <h1>Ваша улыбка — в надёжных руках</h1>
+            <p class="hero-text">
+                <span class="text-primary">Современная и дружелюбная</span> стоматология.
+                <span class="text-secondary">Без боли, без стресса</span>, с заботой о каждом пациенте.
+            </p>
+            <button class="btn-hero">Записаться</button>
+        </div>
+
+        <img src="img/AVV.png" class="hero-img" alt="AVV">
+    </section>
+
+    <section class="services-title" id="services">
+        <h2>Основные услуги</h2>
+    </section>
+
+    <section class="services-blocks">
+        <div class="service-card card1">
+            <img src="img/a1.png" class="service-img" alt="Лечение кариеса">
+            <h3>Лечение кариеса</h3>
+            <p>Быстрое и безболезненное лечение с современными материалами.</p>
+            <button class="btn-service">Подробнее</button>
+        </div>
+
+        <div class="service-card card2">
+            <img src="img/a2.png" class="service-img" alt="Профессиональная чистка">
+            <h3>Профессиональная чистка</h3>
+            <p>Удаление налёта и камня, бережная полировка.</p>
+            <button class="btn-service">Подробнее</button>
+        </div>
+
+        <div class="service-card card3">
+            <img src="img/a3.png" class="service-img" alt="Имплантация">
+            <h3>Имплантация</h3>
+            <p>Надёжные импланты с пожизненной гарантией производителя.</p>
+            <button class="btn-service">Подробнее</button>
+        </div>
+    </section>
+
+    <div class="specialists-title"  id="specialists">
+        <h2>Наши специалисты</h2>
+    </div>
+
+    <section class="specialists-blocks">
+        <div class="specialist-card card1">
+            <img src="img/b1.png" alt="Андрей Смирнов" class="specialist-img">
+            <h3 class="specialist-name">Андрей Смирнов</h3>
+            <p class="specialist-position">Терапевт-стоматолог</p>
+            <p class="specialist-bio">
+                Специализируется на лечении кариеса и реставрациях. Максимально бережный подход,
+                работает без боли и стресса.
+            </p>
+            <button class="btn-specialist">Записаться</button>
+        </div>
+
+        <div class="specialist-card card2">
+            <img src="img/b2.png" alt="Алексей Кузнецов" class="specialist-img">
+            <h3 class="specialist-name">Алексей Кузнецов</h3>
+            <p class="specialist-position">Хирург-имплантолог</p>
+            <p class="specialist-bio">
+                Проводит имплантацию любой сложности. Работает с современными системами имплантов.
+            </p>
+            <button class="btn-specialist">Записаться</button>
+        </div>
+
+        <div class="specialist-card card3">
+            <img src="img/b3.png" alt="Петр Андреев" class="specialist-img">
+            <h3 class="specialist-name">Петр Андреев</h3>
+            <p class="specialist-position">Ортопед-стоматолог</p>
+            <p class="specialist-bio">
+                Занимается протезированием, восстановлением жевательной функции и эстетикой улыбки.
+                Внимателен к деталям.
+            </p>
+            <button class="btn-specialist">Записаться</button>
+        </div>
+
+        <div class="specialist-card card4">
+            <img src="img/b4.png" alt="Илья Грачёв" class="specialist-img">
+            <h3 class="specialist-name">Илья Грачёв</h3>
+            <p class="specialist-position">Пародонтолог</p>
+            <p class="specialist-bio">
+                Лечит заболевания дёсен и выполняет комплексное восстановление тканей.
+                Подходит к лечению системно.
+            </p>
+            <button class="btn-specialist">Записаться</button>
+        </div>
+    </section>
+
+
+<div class="contact-block" id="contacts">
+    <h2 class="contact-title">
+        <span class="black-text">Свяжитесь с нами</span><br>
+        <span class="blue-text">удобным для вас способом</span>
+    </h2>
+
+   
+    <form action="http://localhost:8080/submit" method="POST">
+        <input type="text" class="contact-input name-input" name="name" placeholder="Ваше имя" required>
+        <input type="text" class="contact-input phone-input" name="phone" placeholder="+7 (000) 000-00-00" required>
+        <input type="text" class="contact-input comment-input" name="comment" placeholder="Комментарий для специалистов">
+
+        <button type="submit" class="btn-contact-send">Отправить</button>
+    </form>
+
+    <p class="contact-phone">
+        Позвоните нам <br><br> +7 (245) 214-09-11
+    </p>
+
+    <div class="contact-icons">
+        <a href="https://max.com/72452140911" target="_blank">
+            <img src="img/max.png" alt="WhatsApp">
+        </a>
+        <a href="https://t.me/clinicchat" target="_blank">
+            <img src="img/tg.png" alt="Viber">
+        </a>
+        <a href="https://vb.me/72452140911" target="_blank">
+            <img src="img/vib.png" alt="Maxim">
+        </a>
+        <a href="https://wa.me/72452140911" target="_blank">
+            <img src="img/wt.png" alt="Telegram">
+        </a>
+    </div>
+</div>
+
+<div class="chat-block">
+    <h3 class="chat-title">
+        Задайте вопрос<br>
+        стоматологу-ИИ
+    </h3>
+    <p class="chat-subtitle">
+        <span class="black-text">Он подскажет </span>
+        <span class="blue-text">по симптомам, услугам, стоимости</span>
+        <span class="black-text"> и подготовке к лечению.</span>
+    </p>
+    <div class="chat-input">
+        <input type="text" placeholder="Напиши мне">
+    </div>
+</div>
+
+
+
+<div class="footer-block">
+
+
+    <div class="footer-logo-text">
+        <img src="img/logo2.png" alt="logo" class="footer-logo">
+        <p class="footer-text">
+            Современная клиника с онлайн-записью,<br>
+            удобным интерфейсом и заботой о пациентах.
+        </p>
+    </div>
+
+
+    <div class="footer-contacts">
+        <h3 class="footer-contacts-title">Контакты</h3>
+        <p class="footer-contacts-info">
+            +7 (245) 214-09-11<br>
+            info@clinic.ru<br>
+            г. Москва, ул. Здоровья, 10
+        </p>
+        <div class="footer-contact-icons">
+            <a href="https://wa.me/72452140911" target="_blank"><img src="img/wt.png" alt="WhatsApp"></a>
+            <a href="https://vb.me/72452140911" target="_blank"><img src="img/vib.png" alt="Viber"></a>
+            <a href="https://max.com/72452140911" target="_blank"><img src="img/max.png" alt="Maxim"></a>
+            <a href="https://t.me/clinicchat" target="_blank"><img src="img/tg.png" alt="Telegram"></a>
+        </div>
+    </div>
+
+<div class="footer-online">
+    <h3 class="footer-online-title">Записаться онлайн</h3>
+
+    <form action="http://localhost:8080/submit" method="POST">
+        <input type="text" class="footer-input name" name="name" placeholder="Ваше имя" required>
+        <input type="text" class="footer-input phone" name="phone" placeholder="+7 (000) 000-00-00" required>
+        <input type="hidden" name="comment" value="без комментариев">
+
+        <button class="footer-btn" type="submit">Отправить</button>
+    </form>
+</div>
+
+
+</div>
+
+
+<script src="app.js" defer></script>
+
+</body>
+</html>
+
+
+

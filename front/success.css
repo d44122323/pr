@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #F9FAFB;
+    font-family: 'Inter', sans-serif;
+}
+
+
+
+.header {
+    display: flex;
+    align-items: center;
+    padding-left: 66px;
+    padding-top: 57px;
+}
+
+.logo {
+    width: auto;
+    
+}
+
+.btn-home {
+  margin-left: 60px;
+  padding: 10px 30px;
+  font-size: 26px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  color: black;
+  text-decoration: none;
+  transition: font-size 0.12s ease;
+}
+
+.btn-home:hover{
+    font-size: 28px;
+}
+
+
+
+.success-container {
+    display: flex;
+    justify-content: space-between;
+    width: 1383px;
+    margin-top: 120px;
+}
+
+.success-text-block {
+    margin-left: 98px;
+    width: 838px;
+}
+
+.success-title {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.success-text {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 400;
+}
+
+.success-img {
+    position: absolute;
+    left: 1036px;
+    top: 427px;
+    width: 420px;
+}
+
+
+
+.footer-block {
+    width: 1187px;
+    height: 222px;
+    background: #F1F3F5;
+    border-radius: 24px;
+    margin: 140px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 60px;
+}
+
+.footer-logo {
+    width: auto;
+}
+
+.footer-text {
+    margin-left:270px;
+    margin-top: -90px;
+    font-size: 20px;
+    color: #000;
+}
+
+.footer-contacts {
+    position: absolute;
+    left: 1000px;
+    top: 1117px;
+    width: 250px;
+    height: 193px;
+    background: #DBE2E8;
+    border-radius: 24px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.footer-contacts-title {
+    position: absolute;
+    left: 65px; 
+    top: -12px;  
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: black;
+}
+
+.footer-contacts-info {
+    position: absolute;
+    left: 20px; 
+    top: 47px;  
+    width: 221px;
+    height: 85px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+    line-height: 20px;
+}
+
+.footer-contact-icons {
+    position: absolute;
+    left: 20px; 
+    top: 138px; 
+    display: flex;
+    gap: 3px;
+}

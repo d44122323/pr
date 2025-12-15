@@ -1,0 +1,1192 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  position: relative;
+  max-width: 1440px;
+  width: 100%;
+  background: #f9fafb;
+}
+.logo {
+  position: absolute;
+  left: 41px;
+  top: 35px;
+  width: 320px;
+}
+header {
+  position: absolute;
+  top: 68px;
+  left: 451px;
+}
+.nav-menu {
+  display: flex;
+  gap: 62px;
+  align-items: center;
+}
+.nav-menu a {
+  font-size: 26px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  color: black;
+  text-decoration: none;
+  transition: font-size 0.12s ease;
+}
+.nav-menu a:hover {
+  font-size: 28px;
+}
+.btn-record {
+  position: absolute;
+  left: 1201px;
+  top: 51px;
+  width: 238px;
+  height: 67px;
+  background: #00d1ff;
+  border: none;
+  border-radius: 50px;
+  font-size: 36px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: white;
+  cursor: pointer;
+}
+.btn-record:hover {
+  background: #2c6adf;
+  transition: 0.5s ease;
+}
+.hero-block {
+  position: absolute;
+  top: 344px;
+  left: 35px;
+  width: 1499px;
+  height: 500px;
+  background: #f0f4f5;
+  border-radius: 24px;
+}
+.hero-content {
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  width: 450px;
+}
+.hero-content h1 {
+  font-size: 30px;
+  font-weight: 400;
+  width: 540px;
+  color: black;
+  margin: 30 0 50px 0;
+}
+.hero-content p {
+  font-size: 24px;
+  font-weight: 400;
+  width: 450px;
+  height: auto;
+  margin: 60px 0 90px 0;
+}
+.hero-text .text-primary {
+  color: #4f20fd;
+}
+.hero-text .text-secondary {
+  color: #694bd7;
+}
+.btn-hero {
+  width: 290px;
+  height: 80px;
+  background: #00d1ff;
+  border: none;
+  border-radius: 50px;
+  font-size: 32px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: white;
+  cursor: pointer;
+  position: absolute;
+  left: 10px;
+  top: 300px;
+}
+.btn-hero:hover {
+  background: #2c6adf;
+  transition: 0.5s ease;
+}
+.hero-img {
+  position: absolute;
+  top: 41px;
+  right: 35px;
+  width: auto;
+  height: auto;
+  max-height: 418px;
+}
+.services-title {
+  position: absolute;
+  top: 880px;
+  width: 100%;
+  left: 90px;
+  text-align: center;
+}
+.services-title h2 {
+  font-size: 30px;
+  font-weight: 400;
+  color: #0611ff;
+  margin: 0;
+}
+.services-blocks {
+  position: absolute;
+  top: 950px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 11px;
+  max-width: 1440px;
+  padding-left: 110px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.service-card {
+  height: 440px;
+  background: #f3f3f3;
+  border-radius: 24px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: flex-start;
+}
+.card1 {
+  width: 473px;
+}
+.card2,
+.card3 {
+  width: 445px;
+}
+.service-img {
+  width: auto;
+  max-width: 80%;
+  max-height: 200px;
+  margin-bottom: 20px;
+}
+.service-card h3 {
+  font-size: 26px;
+  font-weight: 400;
+  margin: 10px 0 15px 0;
+  color: black;
+}
+.service-card p {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0 0 30px 0;
+  color: black;
+  width: 80%;
+}
+.btn-service {
+  width: 180px;
+  height: 50px;
+  background: #00d1ff;
+  border: none;
+  border-radius: 50px;
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: white;
+  cursor: pointer;
+}
+.btn-service:hover {
+  background: #2c6adf;
+  transition: 0.5s ease;
+}
+.specialists-title {
+  position: absolute;
+  top: 1562px;
+  width: 100%;
+  left: 90px;
+  text-align: center;
+}
+.specialists-title h2 {
+  font-size: 30px;
+  font-weight: 400;
+  color: #0611ff;
+  margin: 0;
+}
+.specialists-blocks {
+  position: absolute;
+  top: 1636px;
+  left: 68px;
+  display: flex;
+  gap: 20px;
+  width: 1435px;
+  height: 600px;
+  justify-content: space-between;
+}
+.specialist-card {
+  background: none;
+  text-align: center;
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.specialist-img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+.specialist-name {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: black;
+  margin: 0 0 5px 0;
+}
+.specialist-position {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 360;
+  color: #57637d;
+  margin: 0 0 10px 0;
+}
+.specialist-bio {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 360;
+  color: #57637d;
+  margin: 0 0 20px 0;
+  text-align: center;
+}
+.btn-specialist {
+  width: 208px;
+  height: 48px;
+  background: #00d1ff;
+  border: none;
+  border-radius: 50px;
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: white;
+  cursor: pointer;
+}
+.btn-specialist:hover {
+  background: #2c6adf;
+  transition: 0.5s ease;
+}
+.contact-block {
+  position: absolute;
+  top: 2424px;
+  left: 65px;
+  width: 737px;
+  height: 360px;
+  background: #f5f5f5;
+  border-radius: 24px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.contact-title {
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  margin: 0 0 20px 0;
+}
+.contact-title .black-text {
+  color: black;
+}
+.contact-title .blue-text {
+  color: #0611ff;
+}
+.contact-input {
+  width: 335px;
+  height: 46px;
+  border-radius: 50px;
+  border: none;
+  margin-bottom: 15px;
+  padding: 0 20px;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  color: #a38383;
+  background: white;
+}
+.contact-textarea {
+  width: 335px;
+  height: 46px;
+  border-radius: 50px;
+  border: none;
+  margin-bottom: 15px;
+  padding: 10px 20px;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  color: #a38383;
+  background: white;
+  resize: none;
+}
+.btn-contact-send {
+  width: 248px;
+  height: 56px;
+  border-radius: 50px;
+  border: none;
+  background: #00d1ff;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  cursor: pointer;
+}
+.btn-contact-send:hover {
+  background: #2c6adf;
+  transition: 0.3s ease;
+}
+
+.contact-block {
+  position: absolute;
+  top: 2424px;
+  left: 65px;
+  width: 737px;
+  height: 380px;
+  background: #F5F5F5;
+  border-radius: 24px;
+  padding: 0;
+}
+
+.contact-title {
+  position: absolute;
+  left: 60px;
+  top: 23px; 
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  width: 438px;
+  height: 101px;
+  margin: 0;
+  text-align: left;
+}
+
+.contact-title .black-text {
+  color: #000000;
+}
+
+.contact-title .blue-text {
+  color: #0611FF;
+}
+
+
+.name-input {
+  position: absolute;
+  left: 45px;
+  top: 113px;
+  width: 338px;
+  height: 46px;
+  border-radius: 50px;
+  border: none;
+  background: #FFFFFF;
+  padding-left: 20px;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  color: #A38383;
+}
+
+
+.phone-input {
+  position: absolute;
+  left: 45px;
+  top: 181px;
+  width: 338px;
+  height: 46px;
+  border-radius: 50px;
+  border: none;
+  background: #FFFFFF;
+  padding-left: 20px;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  color: #A38383;
+}
+
+
+.comment-input {
+  position: absolute;
+  left: 45px;
+  top: 251px;
+  width: 338px;
+  height: 46px;
+  border-radius: 50px;
+  border: none;
+  background: #FFFFFF;
+  padding-left: 20px;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  color: #A38383;
+}
+
+
+.btn-contact-send {
+  position: absolute;
+  left: 58px;
+  top: 321px;
+  width: 208px;
+  height: 46px;
+  border-radius: 50px;
+  border: none;
+  background: #00D1FF;
+  color: white;
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+}
+
+.btn-contact-send:hover {
+  background: #2C6ADF;
+  transition: 0.3s ease;
+}
+
+
+.contact-phone {
+    position: absolute;
+    left: 508px;
+    top: 157px;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    color: #A38383;
+        width:588px;
+    height: 58px;
+
+}
+
+.contact-icons {
+    position: absolute;
+    top: 311px;
+    left: 480px;
+    display: flex;
+    gap: 3px; 
+}
+
+.contact-icons img {
+    display: block;
+}
+
+
+.chat-block {
+    position: absolute;
+    left: 1034px;
+    top: 2432px;
+    width: 313px;
+    height: 359px;
+    background: #DEE2EB;
+    border-radius: 24px;
+    padding: 26px 20px 20px 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-title {
+    position: absolute;
+    left: 53px; 
+    top: 26px;  
+    width: 273px;
+    height: 21px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    color: black;
+    line-height: 28px;
+}
+
+.chat-subtitle {
+    position: absolute;
+    left: 25px; 
+    top: 117px; 
+    width: 277px;
+    height: 25px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 25px;
+}
+
+.chat-subtitle .black-text {
+    color: black;
+}
+
+.chat-subtitle .blue-text {
+    color: #694BD7;
+}
+
+.chat-input {
+    position: absolute;
+    left: 16px; 
+    top: 269px; 
+    width: 271px;
+    height: 21px;
+    border-radius: 50px;
+    background: black;
+    display: flex;
+    align-items: center;
+    padding-left: 12px;
+    box-sizing: border-box;
+}
+
+.chat-input input {
+    width: 213px; 
+    height: 9px; 
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #DDC4C4;
+    border: none;
+    background: transparent;
+    outline: none;
+}
+
+
+.footer-block {
+    position: absolute;
+    left: 17px;
+    top: 2938px;
+    width: 1543px;
+    height: 366px;
+    background: #F1F3F5;
+    border-radius: 24px;
+    display: flex;
+    padding: 22px 30px;
+    box-sizing: border-box;
+}
+
+
+.footer-logo-text {
+    display: flex;
+    align-items: flex-start;
+}
+
+.footer-logo {
+    position: absolute;
+    left: 82px;
+    top: 60px;
+    width: auto;
+    height: auto;
+}
+
+.footer-text {
+    position: absolute;
+    left: 360px;
+    top: 60px;
+    width: 453px;
+    height: 107px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+    line-height: 24px;
+}
+
+
+.footer-contacts {
+    position: absolute;
+    left: 802px;
+    top: 52px;
+    width: 250px;
+    height: 193px;
+    background: #DBE2E8;
+    border-radius: 24px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.footer-contacts-title {
+    position: absolute;
+    left: 65px; 
+    top: -12px;  
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: black;
+}
+
+.footer-contacts-info {
+    position: absolute;
+    left: 20px; 
+    top: 47px;  
+    width: 221px;
+    height: 85px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+    line-height: 20px;
+}
+
+.footer-contact-icons {
+    position: absolute;
+    left: 20px; 
+    top: 138px; 
+    display: flex;
+    gap: 3px;
+}
+
+.footer-contact-icons img {
+    display: block;
+}
+
+.footer-online {
+    position: absolute;
+    left: 1104px;
+    top: 57px;
+    width: 300px;
+    height: 198px;
+    background: #DBE2E8;
+    border-radius: 24px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.footer-online-title {
+    position: absolute;
+    left: 52px; 
+    top: -11px;  
+    width: 284px;
+    height: 27px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+}
+
+.footer-input.name {
+    position: absolute;
+    left: 10px; 
+    top: 48px;  
+    width: 261px;
+    height: 30px;
+    border-radius: 50px;
+    background: white;
+    padding-left: 15px;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    color: #A38383;
+    border: none;
+}
+
+.footer-input.phone {
+    position: absolute;
+    left: 10px; 
+    top: 92px;  
+    width: 261px;
+    height: 35px;
+    border-radius: 50px;
+    background: white;
+    padding-left: 15px;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    color: #A38383;
+    border: none;
+}
+
+.footer-btn {
+    position: absolute;
+    left: 42px; 
+    top: 148px;
+    width: 162px;
+    height: 34px;
+    border-radius: 50px;
+    background: #00D1FF;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.footer-btn:hover {
+    background: #2C6ADF;
+    transition: 0.3s ease;
+}
+
+
+
+
+@media (max-width: 420px) {
+
+  .logo {
+    position: absolute;
+    left: 14px;
+    top: 7px;
+    max-width: 120px;
+    width: 100%;
+    height: auto;
+  }
+
+  header {
+    position: relative;
+    width: 390px;
+    height: 80px;
+    left: 0;
+    top: 0;
+  }
+
+  .nav-menu {
+    position: absolute;
+    top: 14px;
+    left: 134px;
+    display: flex;
+    gap: 17px;
+  }
+
+  .nav-menu a {
+    font-size: 10px;
+    font-weight: 400;
+  }
+
+  .nav-menu a:hover {
+    font-size: 12px;
+  }
+
+  .btn-record {
+    position: absolute;
+    width: 119px;
+    height: 28px;
+    left: 264px;
+    top: 34px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 0;
+  }
+
+  .hero-block {
+    position: absolute;
+    left: 6px;
+    top: 96px;
+    width: 377px;
+    height: 136px;
+    border-radius: 24px;
+  }
+
+  .hero-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  .hero-content h1 {
+    position: absolute;
+    left: -90px;
+    top: -34px;
+    font-weight: 400;
+    font-size: 10px;
+    margin: 0;
+  }
+
+  .hero-content p {
+    position: absolute;
+    left: -90px;
+    top: -4px;
+    width: 152px;
+    height: 87px;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 10px;
+    margin: 0;
+  }
+
+  .btn-hero {
+    position: absolute;
+    left: -90px;
+    top: 50px;
+    width: 76px;
+    height: 22px;
+    border-radius: 50px;
+    font-weight: 400;
+    font-size: 11px;
+    padding: 0;
+  }
+
+  .hero-img {
+    position: absolute;
+    left: 217px;
+    top: 13px;
+    width: 149px;
+    height: 108px;
+    max-width: none;
+    max-height: none;
+  }
+
+  .services-title h2 {
+    position: absolute;
+    left: 50px;
+    top: -623px;
+    font-weight: 400;
+    font-size: 9px;
+    margin: 0;
+  }
+
+  .service-card.card1,
+  .service-card.card2,
+  .service-card.card3 {
+    position: absolute;
+    width: 120px;
+    height: 140px;
+    border-radius: 24px;
+    padding: 0;
+  }
+
+  .service-card.card1 {
+    left: -140px;
+    top: -673px;
+  }
+
+  .service-card.card2 {
+    left: -15px;
+    top: -673px;
+  }
+
+  .service-card.card3 {
+    left: 110px;
+    top: -673px;
+  }
+
+  .service-card .service-img {
+    position: absolute;
+    top: 8px;
+    border-radius: 10px;
+  }
+
+  .service-card.card1 .service-img {
+    left: 29px;
+    width: 64px;
+    height: 69px;
+  }
+
+  .service-card.card2 .service-img {
+    left: 26px;
+    width: 90px;
+    height: 68px;
+  }
+
+  .service-card.card3 .service-img {
+    left: 18px;
+    width: 85px;
+    height: 61px;
+  }
+
+  .service-card h3 {
+    position: absolute;
+    top: 80px;
+    font-weight: 400;
+    font-size: 8px;
+    margin: 0;
+  }
+
+  .service-card p {
+    position: absolute;
+    top: 95px;
+    font-weight: 400;
+    font-size: 6px;
+    margin: 0;
+  }
+
+  .service-card.card1 h3 { left: 25px; }
+  .service-card.card2 h3 { left: 6px; }
+  .service-card.card3 h3 { left: 36px; }
+
+  .service-card.card1 p { left: 3px; width: 110px; height: 60px; }
+  .service-card.card2 p { left: 6px; width: 99px; height: 60px; }
+  .service-card.card3 p { left: 6px; width: 110px; height: 60px; }
+
+  .service-card .btn-service {
+    position: absolute;
+    top: 118px;
+    width: 58px;
+    height: 13px;
+    border-radius: 50px;
+    font-size: 7px;
+    font-weight: 400;
+    padding: 0;
+  }
+
+  .service-card.card1 .btn-service { left: 29px; }
+  .service-card.card2 .btn-service { left: 31px; }
+  .service-card.card3 .btn-service { left: 31px; }
+
+  .specialists-title h2 {
+    position: absolute;
+    left: 50px;
+    top: -1125px;
+    font-weight: 400;
+    font-size: 9px;
+    margin: 0;
+  }
+
+  .specialist-card {
+    position: absolute;
+    border-radius: 10px;
+  }
+
+  .specialist-card.card1 { left: -60px; top: -1165px; width: 96px; height: 95px; }
+  .specialist-card.card2 { left: 45px; top: -1165px; width: 74px; height: 96px; }
+  .specialist-card.card3 { left: 125px; top: -1165px; width: 94px; height: 96px; }
+  .specialist-card.card4 { left: 225px; top: -1165px; width: 69px; height: 95px; }
+
+  .specialist-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+
+  .specialist-name {
+    position: absolute;
+    top: 100px;
+    font-weight: 400;
+    font-size: 6px;
+  }
+
+  .specialist-position {
+    position: absolute;
+    top: 110px;
+    font-weight: 400;
+    font-size: 5px;
+  }
+
+  .specialist-bio {
+    position: absolute;
+    top: 125px;
+    font-weight: 400;
+    font-size: 5px;
+  }
+
+  .btn-specialist {
+    position: absolute;
+    top: 159px;
+    width: 79px;
+    height: 15px;
+    border-radius: 50px;
+    font-size: 8px;
+    font-weight: 400;
+    padding: 0;
+  }
+
+  .contact-block {
+    position: absolute;
+    left: 11px;
+    top: 674px;
+    width: 215px;
+    height: 107px;
+    border-radius: 10px;
+    padding: 0;
+  }
+
+  .contact-title {
+    position: absolute;
+    left: 30px;
+    top: 11px;
+    font-size: 7px;
+    line-height: 8px;
+    margin: 0;
+  }
+
+  .name-input,
+  .phone-input,
+  .comment-input {
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    border-radius: 50px;
+    font-size: 6px;
+    padding-left: 5px;
+  }
+
+  .name-input { left: 15px; top: 41px; }
+  .phone-input { left: 15px; top: 57px; }
+  .comment-input { left: 15px; top: 73px; }
+
+  .btn-contact-send {
+    position: absolute;
+    left: 15px;
+    top: 89px;
+    width: 55px;
+    height: 12px;
+    border-radius: 50px;
+    font-size: 6px;
+  }
+
+  .contact-phone {
+    position: absolute;
+    left: 148px;
+    top: 53px;
+    font-size: 6px;
+  }
+
+  .contact-icons {
+    position: absolute;
+    left: 141px;
+    top: 88px;
+    display: flex;
+    gap: 3px;
+  }
+
+  .contact-icons img {
+    width: 14px;
+    height: 14px;
+  }
+
+  .chat-block {
+    position: absolute;
+    left: 286px;
+    top: 676px;
+    width: 69px;
+    height: 110px;
+    border-radius: 10px;
+  }
+
+  .chat-title {
+    position: absolute;
+    left: 9px;
+    top: 10px;
+    width: 55px;
+    font-size: 6px;
+    line-height: 7px;
+    margin: 0;
+  }
+
+  .chat-subtitle {
+    position: absolute;
+    left: 4px;
+    top: 35px;
+    width: 63px;
+    height: 25px;
+    font-size: 5px;
+    line-height: 6px;
+    margin: 0;
+  }
+
+  .chat-input {
+    position: absolute;
+    left: 4px;
+    top: 86px;
+    width: 61px;
+    height: 4px;
+    border-radius: 50px;
+    padding-left: 3px;
+  }
+
+  .chat-input input {
+    width: 100%;
+    height: 100%;
+    font-size: 4px;
+    border: none;
+    outline: none;
+  }
+
+  .footer-block {
+    position: absolute;
+    left: 6px;
+    top: 880px;
+    width: 379px;
+    height: 95px;
+    border-radius: 10px;
+  }
+
+  .footer-logo {
+    position: absolute;
+    left: 12px;
+    top: 6px;
+    max-width: 70px;
+    width: 100%;
+  }
+
+  .footer-text {
+    position: absolute;
+    left: 84px;
+    top: 13px;
+    width: 180px;
+    height: 50px;
+    font-size: 5px;
+    line-height: 6px;
+    margin: 0;
+  }
+
+  .footer-contacts {
+    position: absolute;
+    left: 230px;
+    top: 7px;
+    width: 63px;
+    height: 48px;
+    border-radius: 10px;
+  }
+
+  .footer-contacts-title {
+    position: absolute;
+    left: 19px;
+    top: 2px;
+    font-size: 5px;
+    margin: 0;
+  }
+
+  .footer-contacts-info {
+    position: absolute;
+    left: 4px;
+    top: 12px;
+    font-size: 4px;
+    line-height: 5px;
+    margin: 0;
+  }
+
+  .footer-contact-icons {
+    position: absolute;
+    left: 4px;
+    top: 34px;
+    display: flex;
+    gap: 3px;
+  }
+
+  .footer-contact-icons img {
+    width: 12px;
+    height: 12px;
+  }
+
+  .footer-online {
+    position: absolute;
+    left: 304px;
+    top: 6px;
+    width: 75px;
+    height: 47px;
+    border-radius: 10px;
+  }
+
+  .footer-online-title {
+    position: absolute;
+    left: 13px;
+    top: 2px;
+    font-size: 5px;
+    margin: 0;
+  }
+
+  .footer-input.name,
+  .footer-input.phone {
+    position: absolute;
+    left: 3px;
+    width: 61px;
+    height: 6px;
+    border-radius: 50px;
+    font-size: 4px;
+    padding-left: 4px;
+    border: none;
+  }
+
+  .footer-input.name { top: 14px; }
+  .footer-input.phone { top: 24px; }
+
+  .footer-btn {
+    position: absolute;
+    left: 18px;
+    top: 34px;
+    width: 40px;
+    height: 8px;
+    border-radius: 50px;
+    font-size: 6px;
+    border: none;
+  }
+}
+
